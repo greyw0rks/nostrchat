@@ -77,7 +77,7 @@ if (['satsacademy','bitcoin-sandbox','nostrchat'].includes(name)) {
   } finally { secret.fill(0); }
 }
 
-const directory = `docs/${name === 'bitcoin-sandbox' ? 'sandbox' : name}/standalone-acceptance/2026-11-18`;
+const directory = `docs/${name === 'bitcoin-sandbox' ? 'sandbox' : name}/standalone-acceptance/${new Date().toISOString().slice(0,10)}`;
 mkdirSync(directory, {recursive:true});
 const browser = await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
 const errors = [], screenshots = [];

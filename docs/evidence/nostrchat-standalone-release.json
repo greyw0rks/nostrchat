@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-19T09:30:48.549Z",
+  "product": "nostrchat",
+  "origin": "https://nostrchat-greyw0rks.vercel.app",
+  "assets": [
+    {
+      "path": "/assets/index-DegmdxbN.js",
+      "bytes": 604952,
+      "sha256": "325dcabc2bc4e992ff0c1d665bc25d3d646e4b14a958a203b99ae987ffd118c9"
+    },
+    {
+      "path": "/assets/index-D8OEVDh3.css",
+      "bytes": 58940,
+      "sha256": "628d785df578c316abbb7802750fe7f91c62d83e85b44658bcad50c2b7748272"
+    }
+  ],
+  "routes": [
+    "/people",
+    "/activity"
+  ],
+  "sessionChecks": [
+    "Fresh generated builder Nostr identity signs into this independent origin",
+    "Replay rejected",
+    "Owner product endpoints use Convex",
+    "No wallet connected",
+    "Logout invalidates the session"
+  ],
+  "viewports": [
+    1440,
+    1024,
+    390,
+    360
+  ],
+  "screenshots": [
+    "1440-landing.png",
+    "1024-landing.png",
+    "390-landing.png",
+    "360-landing.png"
+  ],
+  "pageErrors": [],
+  "classification": "Standalone hosting and generated builder identity verification. No wallet connection, payment, public messages or independent adoption."
+}

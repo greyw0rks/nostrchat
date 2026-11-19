@@ -21,3 +21,5 @@ NostrChat has its own repository, public site and submission. The release builds
 Read the [product guide](docs/nostrchat/README.md), [privacy notes](docs/nostrchat/PRIVACY.md), [security notes](docs/nostrchat/SECURITY.md) and [demo outline](docs/nostrchat/PITCH.md).
 
 Retained evidence comes from generated builder identities and private regtest. Independent adoption and an independent security audit are unmeasured.
+
+Submission copy is in [DEVPOST.md](docs/nostrchat/DEVPOST.md). The local `submission` shortcut opens the upload kit.
