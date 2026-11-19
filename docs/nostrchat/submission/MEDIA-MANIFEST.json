@@ -1,0 +1,154 @@
+{
+  "status": "accepted",
+  "sourceReport": "docs/nostrchat/acceptance/2026-11-19T09-06-00-207Z/verification.json",
+  "paymentHash": "c3388b451a90e5c8cd4c648192c048870d5997f665e417876092d24a189e5c9f",
+  "amountSats": 100,
+  "network": "regtest",
+  "monetaryValue": false,
+  "assets": [
+    {
+      "file": "00-thumbnail.png",
+      "bytes": 107146,
+      "width": 1500,
+      "height": 1000,
+      "sha256": "5a5d4a314d4eb965057bdaea9bf7f635f52e22002827e6067d5b22d5adfdb1ff",
+      "capture": "desktop-landing.png",
+      "captureSha256": "db10d838ec774c6db350e7987241167abfc48b9179ee873ea0f89a39443d5cc7",
+      "visualReview": {
+        "status": "accepted",
+        "reviewedAt": "2026-11-19T09:12:59.938096+00:00",
+        "reviewer": "codex agent",
+        "method": "Direct full-resolution inspection of this final PNG using view_image",
+        "reviewedSha256": "5a5d4a314d4eb965057bdaea9bf7f635f52e22002827e6067d5b22d5adfdb1ff",
+        "reviewedCaptureSha256": "db10d838ec774c6db350e7987241167abfc48b9179ee873ea0f89a39443d5cc7",
+        "notes": "Both title lines, complete subtitle and landing screenshot fit; frame has clear spacing below subtitle."
+      }
+    },
+    {
+      "file": "01-private-messages.png",
+      "bytes": 79960,
+      "width": 1500,
+      "height": 1000,
+      "sha256": "afc69a5a52c93e03f00921b5eb1e673c09a466ff6f40216d34ffe5f1327589c6",
+      "capture": "desktop-conversation.png",
+      "captureSha256": "17822c19448900905b743502d5e2026f2ac802145f645cc02a5300f5e071c67f",
+      "visualReview": {
+        "status": "accepted",
+        "reviewedAt": "2026-11-19T09:12:59.938096+00:00",
+        "reviewer": "codex agent",
+        "method": "Direct full-resolution inspection of this final PNG using view_image",
+        "reviewedSha256": "afc69a5a52c93e03f00921b5eb1e673c09a466ff6f40216d34ffe5f1327589c6",
+        "reviewedCaptureSha256": "17822c19448900905b743502d5e2026f2ac802145f645cc02a5300f5e071c67f",
+        "notes": "Actual desktop conversation is contained; title, subtitle and builder/private-relay/no-value labels readable."
+      }
+    },
+    {
+      "file": "02-invoice.png",
+      "bytes": 118563,
+      "width": 1500,
+      "height": 1000,
+      "sha256": "03dca0ab4f98d9cdda456ccd8de943e597ed12e08c99acbf114fb585b6b93420",
+      "capture": "desktop-invoice.png",
+      "captureSha256": "2dfae287065a1eca1486c5b78ba15c53925ea8325872c557c8b01574e964318b",
+      "visualReview": {
+        "status": "accepted",
+        "reviewedAt": "2026-11-19T09:12:59.938096+00:00",
+        "reviewer": "codex agent",
+        "method": "Direct full-resolution inspection of this final PNG using view_image",
+        "reviewedSha256": "03dca0ab4f98d9cdda456ccd8de943e597ed12e08c99acbf114fb585b6b93420",
+        "reviewedCaptureSha256": "2dfae287065a1eca1486c5b78ba15c53925ea8325872c557c8b01574e964318b",
+        "notes": "Actual receiving invoice amount of 100 sats and QR visible, with private regtest context; no credential displayed."
+      }
+    },
+    {
+      "file": "03-payment-review.png",
+      "bytes": 108621,
+      "width": 1500,
+      "height": 1000,
+      "sha256": "a57805e9cb8f4d3fdd40a9e722fa0c7ff58fb8fdee2c2d0ebb6182f279219f72",
+      "capture": "phone-payment-review.png",
+      "captureSha256": "178644911320c053b6c97e055dfa06acdbd12977f984a5ce0eaa09170d9410dd",
+      "visualReview": {
+        "status": "accepted",
+        "reviewedAt": "2026-11-19T09:12:59.938096+00:00",
+        "reviewer": "codex agent",
+        "method": "Direct full-resolution inspection of this final PNG using view_image",
+        "reviewedSha256": "a57805e9cb8f4d3fdd40a9e722fa0c7ff58fb8fdee2c2d0ebb6182f279219f72",
+        "reviewedCaptureSha256": "178644911320c053b6c97e055dfa06acdbd12977f984a5ce0eaa09170d9410dd",
+        "notes": "Amount of 100 sats, Bitcoin regtest network, Sats Lab Bob paying wallet, identity binding and full Confirm 100-sat payment control visible; no covering notification."
+      }
+    },
+    {
+      "file": "04-verified-receipt.png",
+      "bytes": 88978,
+      "width": 1500,
+      "height": 1000,
+      "sha256": "94dd9d39266a8c1f571982630c6a90acc171409bf3a1dafef23856a34bba27bf",
+      "capture": "desktop-verified-receipt.png",
+      "captureSha256": "ac2547a8c5851626258ea7d797f1fce4bf38edcc04f653525b66636d37a560a3",
+      "visualReview": {
+        "status": "accepted",
+        "reviewedAt": "2026-11-19T09:12:59.938096+00:00",
+        "reviewer": "codex agent",
+        "method": "Direct full-resolution inspection of this final PNG using view_image",
+        "reviewedSha256": "94dd9d39266a8c1f571982630c6a90acc171409bf3a1dafef23856a34bba27bf",
+        "reviewedCaptureSha256": "ac2547a8c5851626258ea7d797f1fce4bf38edcc04f653525b66636d37a560a3",
+        "notes": "Actual 100-sat paid invoice and receiving/conversation verification visible; captions and disclosures fit."
+      }
+    },
+    {
+      "file": "05-phone-messages.png",
+      "bytes": 82969,
+      "width": 1500,
+      "height": 1000,
+      "sha256": "417d2f253c2f6743bb1a51f46458fa2b53d36ce399c845c282c2fa77e007f655",
+      "capture": "phone-conversation.png",
+      "captureSha256": "e65c65b20e6b2814b6ca675eab05efeb63d1e65dc0130c98d972a0cf2e46aeb3",
+      "visualReview": {
+        "status": "accepted",
+        "reviewedAt": "2026-11-19T09:12:59.938096+00:00",
+        "reviewer": "codex agent",
+        "method": "Direct full-resolution inspection of this final PNG using view_image",
+        "reviewedSha256": "417d2f253c2f6743bb1a51f46458fa2b53d36ce399c845c282c2fa77e007f655",
+        "reviewedCaptureSha256": "e65c65b20e6b2814b6ca675eab05efeb63d1e65dc0130c98d972a0cf2e46aeb3",
+        "notes": "Phone messages, composer and bottom navigation contained; private-regtest and no-value disclosures visible."
+      }
+    },
+    {
+      "file": "06-recovery.png",
+      "bytes": 108474,
+      "width": 1500,
+      "height": 1000,
+      "sha256": "669b76999eb50167a9f74f210b22051b6db7b693ef8de4373638e69a7220a4c8",
+      "capture": "phone-360-restored-conversation.png",
+      "captureSha256": "63a529252b87731173e33be22e393d23facc4005d8607d51386bb7b2e87678f6",
+      "visualReview": {
+        "status": "accepted",
+        "reviewedAt": "2026-11-19T09:12:59.938096+00:00",
+        "reviewer": "codex agent",
+        "method": "Direct full-resolution inspection of this final PNG using view_image",
+        "reviewedSha256": "669b76999eb50167a9f74f210b22051b6db7b693ef8de4373638e69a7220a4c8",
+        "reviewedCaptureSha256": "63a529252b87731173e33be22e393d23facc4005d8607d51386bb7b2e87678f6",
+        "notes": "Restored contact/history and 100-sat receipt with verified preimage status visible; no backup content or password shown."
+      }
+    }
+  ],
+  "pageErrors": [],
+  "visualReview": {
+    "status": "accepted",
+    "reviewedAt": "2026-11-19T09:12:59.938096+00:00",
+    "reviewer": "codex agent",
+    "humanApproval": false,
+    "report": "docs/nostrchat/submission/MEDIA-REVIEW.md",
+    "reportSha256": "5271e2e45a9f5459a7cc9b9d7c99400ef6ebea2d1166133f4b33b31081c21c1d",
+    "allSevenFullResolutionPNGsInspected": true,
+    "noExportedCompositionClippingOrOverlap": true,
+    "importantAmountNetworkAndConfirmationVisible": true,
+    "builderPrivateRelayAndNoValueDisclosuresReadable": true,
+    "noPrivateKeyNWCCredentialBackupOrPasswordVisible": true,
+    "sourceAndOutputHashesMatch": true,
+    "all1500x1000": true,
+    "allUnder5MB": true,
+    "totalPNGBytes": 694711
+  }
+}

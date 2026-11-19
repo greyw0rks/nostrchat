@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-19T09:07:07.338Z",
+  "origin": "http://127.0.0.1:4405",
+  "backend": "local",
+  "network": "regtest",
+  "monetaryValue": false,
+  "publicMessagePublication": false,
+  "classification": "Generated builder identities, separate isolated desktop/mobile contexts, private relay, two real LND regtest wallets. Technical integration only; no independent adoption or real-value settlement.",
+  "checks": [
+    "Two GUI-created real Nostr identities, mandatory encrypted-backup acknowledgement, and owner-bound backend sessions",
+    "Public npub exchange and contact creation through the actual desktop and phone forms",
+    "Actual signed/encrypted two-way delivery over the private relay; mobile touch composer is functional",
+    "Real fixed 100-sat BOLT11 invoice from receiving LND wallet shared through encrypted chat",
+    "Explicit immutable amount/network/wallet review shown before any outgoing payment",
+    "Actual private-regtest payment; matching sender and receiver wallet lookups; encrypted conversation receipt verified",
+    "Same-key encrypted-backup unlock after reload restores saved contact and genuinely encrypted message history"
+  ],
+  "viewports": [
+    1440,
+    390,
+    360
+  ],
+  "screenshots": [
+    "desktop-landing.png",
+    "desktop-conversation.png",
+    "phone-conversation.png",
+    "desktop-invoice.png",
+    "phone-payment-review.png",
+    "phone-verified-payment.png",
+    "desktop-verified-receipt.png",
+    "phone-360-restored-conversation.png"
+  ],
+  "pageErrors": [],
+  "sourceHashes": {
+    "apps/nostrchat/src/App.tsx": "216bd93978666780389d4c2c7cc26d8a86393a8f3adf49b3d3f62e7673ad29ca",
+    "apps/nostrchat/src/ChatViews.tsx": "1907024590b05462e20a387d7e72aea64855db9ac33173c7f95262be53a2a2b1",
+    "apps/nostrchat/src/WalletPanel.tsx": "baced0671500e70cb7ac53034e09fc2714600972fd9c1eea218b78cc94ec6e32",
+    "apps/nostrchat/src/AccountDialogs.tsx": "5e1c9b11c40b4f6dd8ea9e3369e904e60a498aae624e25bd5b426f67e8e182c6",
+    "apps/nostrchat/src/protocol.ts": "ec01dedf2fecf6847dd26f2a5b3aa27fc9d96af6b7763e26f1ba433eace8fc18",
+    "apps/nostrchat/src/storage.ts": "f34f783dbb1231a193d363127622c5a04a5d3b0d36ad319c4d55cd839285b61e",
+    "apps/nostrchat/src/relay.ts": "041ef0c2b13f1c87d2183b062f88bbdc48fa60176045a036f0b375d1ebadb913",
+    "apps/nostrchat/src/styles.css": "6f156dcb99d253e991b171e5fb60439faeb4b4b41389575958e712c8784c3080",
+    "server/chat.ts": "7f7d85db8953651e3a986f2ff71f3a5e3a9d81df075822e3519019a00e1e112d",
+    "packages/chat/src/invoice.ts": "89fa4a8610e79b089484445972ccdf9129139a0dde93e948294bb187dcd7abac",
+    "scripts/verify-nostrchat-ui.ts": "b502f5c3e335a1afab6bfef95f936c1c98caef10d76158a086c2f5f2c43ff44e"
+  },
+  "transaction": {
+    "paymentHash": "c3388b451a90e5c8cd4c648192c048870d5997f665e417876092d24a189e5c9f",
+    "amountSats": 100,
+    "preimage": "b9e8bccc29d10ef0230a0bdf58e46c11ec2b9512717e00cd47b290bd3d4d5752",
+    "payerAndReceiverVerified": true
+  },
+  "artifactDirectory": "docs/nostrchat/acceptance/2026-11-19T09-06-00-207Z"
+}

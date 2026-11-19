@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-17T19:50:53.553Z",
+  "origin": "http://127.0.0.1:4424",
+  "backend": "local",
+  "network": "regtest",
+  "monetaryValue": false,
+  "classification": "Builder-controlled generated identities and two real private LND wallets. This is integration proof, not independent adoption or mainnet settlement.",
+  "relay": "Private loopback Nostr relay; no public message publication",
+  "transaction": {
+    "paymentHash": "445fa7e7299623f6b5f3674824bcdc4420c97165754e525904cb734a11f59adb",
+    "amountSats": 100,
+    "preimage": "443c775d809a4a12fcada77e3df7383c4b7b087d1a19db4d574a6d7224d1a904",
+    "settledAt": 1794945052585,
+    "invoiceRumorId": "6d07ed3d1acd070715ff55bd4df119c6e466e33789585843018b32833aa8fa2b",
+    "receiptRumorId": "96ac93cfa8d681838afd664b9e8fdc345c75c7bb313a675f3aebb5c1e0186105",
+    "payerAndReceiverVerified": true
+  },
+  "checks": [
+    "Genuine NIP-98 authentication and replay denial for three generated identities",
+    "Actual signed Nostr subscriptions on an isolated private relay",
+    "Self-encrypted profile persistence and revision conflict",
+    "Cross-account profile isolation",
+    "Two actual independently connected LND regtest wallets; no monetary value",
+    "NIP-17 / NIP-44 / NIP-59 private-message delivery and self copy",
+    "Foreign identity cannot decrypt the envelope",
+    "Owner-only encrypted cloud history and exact-envelope deduplication",
+    "Actual fixed-amount signed BOLT11 invoice from the receiving wallet",
+    "Invoice delivered as an encrypted conversation message",
+    "Pending remains unpaid until wallet proof is available",
+    "Immutable wallet, amount, network and expiry review",
+    "Missing confirmation and foreign review rejected",
+    "Actual 100-sat Lightning settlement through private LND",
+    "Payment preimage independently verified by payer and receiver",
+    "Verified receipt encrypted back into its original conversation",
+    "Repeat confirmation returns the recorded receipt",
+    "Foreign accounts cannot read the settlement proof",
+    "Verified sending and receiving receipts survive wallet disconnect"
+  ],
+  "sourceHashes": {
+    "apps/nostrchat/src/App.tsx": "01b6b291de84e426f8551eec56ca3e4255b417fd0892b63966c56f359e474c7f",
+    "apps/nostrchat/src/protocol.ts": "06cbd3b11e9a1b289fdd9d4deddecb8259eb1441460423896e696d086d3ab81b",
+    "apps/nostrchat/src/relay.ts": "041ef0c2b13f1c87d2183b062f88bbdc48fa60176045a036f0b375d1ebadb913",
+    "apps/nostrchat/src/storage.ts": "f34f783dbb1231a193d363127622c5a04a5d3b0d36ad319c4d55cd839285b61e",
+    "server/chat.ts": "7886ef8f1683142fb2d29f9d4d333840d897458360017273c5e6feb303fa75c9",
+    "server/auth.ts": "4ac67b67ce5712a81f05a741af8a5333f58095ca066072693c5cd02fabfdfe8d",
+    "convex/chatModel.ts": "a80af29a40f7ddc29cfe37ce8f2bfe9c9c5c97fd0ee6a398151cd61291e740c6",
+    "convex/chatHttp.ts": "6f86e8786348d93a5a8f3e1b0381d6f2ae4f99c0b3f58fa06846d22c6b163f7b",
+    "convex/http.ts": "1b87c81d1fc9eeb979ad0ea2a9bc01ca1f09a6b904f101f377c7efd3cb56fa41",
+    "packages/chat/src/invoice.ts": "89fa4a8610e79b089484445972ccdf9129139a0dde93e948294bb187dcd7abac",
+    "packages/chat/src/validation.ts": "b02327d2740e6799555cc47b520a8f34955772c7d40aaa902dec3a8c45b094ea",
+    "packages/nwc-gate/src/nwc.ts": "dcaeae6b4ffd3f48168a579b5674ee69504c80bfbd88e554d8b166b8fde3ff6a"
+  }
+}

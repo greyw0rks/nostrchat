@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["apps/nostrchat", "packages/chat", "server/chat.ts", "packages/academy/src/signers.ts"]
+}
